@@ -2,10 +2,10 @@ public class IsUnique {
     public static void main(String[] args) {
         String str = "apple";
         boolean result = isUniqueChars(str);
-        System.out.println(result);
+        System.out.println("\n" + "Are all chars unique? " + result + "\n");
     }
 
-    static boolean isUniqueChars(String str) {
+    public static boolean isUniqueChars(String str) {
         if (str.length() > 128) {
             return false;
         }

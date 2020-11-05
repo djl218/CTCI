@@ -17,7 +17,7 @@ public class IsUnique {
                 return false;
             }
 
-        char_set[val] = true;
+            char_set[val] = true;
         }
 
         return true;

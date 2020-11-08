@@ -15,7 +15,7 @@ public class OneAway {
                 return true;
             }
         } else if (s.length() < t.length()) {
-            int sum = differentStringSizeCompare(s, t);
+            int sum = differentStringSizeCompare(t, s);
             if (sum == 1) {
                 return true;
             }

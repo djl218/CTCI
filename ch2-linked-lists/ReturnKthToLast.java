@@ -1,6 +1,15 @@
 public class ReturnKthToLast {
     public static void main(String[] args) {
+        LinkedListNode head = new LinkedListNode(2);
+        head.next = new LinkedListNode(4);
+        head.next.next = new LinkedListNode(6);
+        head.next.next.next = new LinkedListNode(8);
+        head.next.next.next.next = new LinkedListNode(10);
+        head.next.next.next.next.next = new LinkedListNode(12);
 
+        int k = 3;
+        LinkedListNode result = findKToLast(head, k);
+        System.out.println("\n" + "The data stored in the Kth to last node is: " + result.data + "\n");
     }
 
     public static LinkedListNode findKToLast(LinkedListNode head, int k) {

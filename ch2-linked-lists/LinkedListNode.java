@@ -1,5 +1,4 @@
 public class LinkedListNode {
-    LinkedListNode previous;
     LinkedListNode next;
     int data;
 

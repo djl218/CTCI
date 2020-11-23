@@ -5,7 +5,6 @@ class Insertion {
         int i = 2;
         int j = 6;
         System.out.println("\n" + "The result is " + insertBinary(n, m, i, j) + "\n"); 
-
     }
 
     public static Integer insertBinary(int n, int m, int i, int j) {
